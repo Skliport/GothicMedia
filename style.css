@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331!important;
+    }
+}
+.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+
+.logo img{
+    width: 50px;
+}
+
+#modelo{
+    width: 35%; 
+}
+
+.collection span{
+    color: #A09ADB;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 5px;
+}
+.collection input{
+    position: absolute;
+    height: 45px;
+    width: 110px;
+    background-color: #8795A8;
+    color: whitesmoke;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    text-align: center;
+    top: 30%;
+    left: 30%;
+    opacity: 0;
+}
+.collection .card:hover input{
+    opacity: 1;
+}
